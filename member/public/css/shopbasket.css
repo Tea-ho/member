@@ -1,1 +1,20 @@
 @charset "UTF-8";
+
+
+.cart_title{
+	text-align: center;
+	font-family: 'Tenada';
+	border-bottom: 2px solid #999999;
+	width:20%;    /*박스 가로길이*/
+	margin:3% auto; /*박스권 가운데 정렬*/
+	padding-top: 10%;  /*안쪽 여백*/
+	padding-bottom: 1%; /*안쪽 아래 여백*/
+}
+
+
+.price_box{/*레이아웃 배치 */
+padding: 20px;
+display:flex;
+justify-content:flex-end
+	
+}	
