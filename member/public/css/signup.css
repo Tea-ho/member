@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+.wrap {
+    width: 1000px;
+    margin: 50px auto 0px;
+}
+
+.wrap h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content {
+    border-top: 1px solid black;
+    padding: 20px 0px;
+}
+
+.content table {
+    margin: 0px auto;
+}
+
+.content td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.content input {
+    width: 100%;
+}
+
+y_m_d input {
+    display: inline-block;
+    
+      width: 20% !important;
+}
+
+.radio input {
+    width: 20% !important;
+}
+
+
+.join_btn {
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px;
+}
