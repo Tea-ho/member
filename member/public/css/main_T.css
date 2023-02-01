@@ -1,1 +1,68 @@
 @charset "UTF-8";
+/*--------------------------------------------- 공통 적용 사항 */
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: '맑은 고딕';
+	margin: 0; padding: 0px;
+}
+
+a{
+	color: black !important;
+	text-decoration: none !important;
+}
+
+/*--------------------------------------------- 헤더 상단 */
+.h_topmenu{
+	width: 100%; display: flex;	justify-content: space-between;
+	font-size: 25px;	font-weight: bold;	
+}
+
+.nav-item{
+	margin-right: 3%;
+}
+
+.logobox{
+	 text-align: center;
+	 margin-top: 120px;
+}
+
+.title{
+	font-family: '양진체';	font-weight: bold;	font-size: 50px;
+}
+
+/*--------------------------------------------- 헤더 이미지 */
+.mainboximg{
+	display: flex; margin: 2%;	justify-content: center;
+}
+
+.main_img{
+	width: 40%; margin: 3%;	
+}
+
+.main_img img{
+	width: 100%;
+}
+
+/*--------------------------------------------- 본문(제품 출력 구역) */
+.box_title{
+	font-family: '양진체';	text-align: center;
+	margin-bottom: 50px;	font-size: 35px;
+}
+
+.itemBox{
+	display: flex;	flex-wrap: wrap;	
+}
+
+.item{
+	width: 25%
+}
+
+.itemBox img{
+	width: 100%;	padding: 5%;
+}
