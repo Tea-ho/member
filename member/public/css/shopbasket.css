@@ -1,1 +1,42 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+
+
+.cart_title{
+	text-align: center;
+	 font-family: 'Pretendardrgb(47, 47, 47)r';
+	border-bottom: 2px solid #999999;
+	width:100%;    /*박스 가로길이*/
+	margin:3% auto; /*박스권 가운데 정렬*/
+	padding-top: 10%;  /*안쪽 여백*/
+	padding-bottom: 1%; /*안쪽 아래 여백*/
+}
+
+
+.price_box{/*레이아웃 배치 */
+padding: 20px;
+display:flex;
+justify-content:flex-end
+	
+}
+.item_t,.item_s,.item_p {
+	font-size:  14px;
+	margin:  5% 0%; /*위아래 왼오른쪽*/
+	  font-family: 'Pretendard-Regular';
+	text-align: center;
+	
+}	
+.X{
+	border: 0px solid #ffffff;
+}
