@@ -8,3 +8,11 @@ let productList=[
 	{ img: 'it7.gif', tittle: '마그레츠 슈포켓 자켓', size: '[ FREE ]' , price: 75000, discount: 0.25, like: 504, review: 2412 },
 	{ img: 'it8.gif', tittle: '로렌 로맨틱 스커트', size: '[ FREE ]' , price: 40000, discount: 0.25, like: 504, review: 2412 }
 ]
+
+function productPrint(){
+	
+	let html = ''
+	for(let i = 0; i < productList.length; i++){
+		
+	}
+}

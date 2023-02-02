@@ -27,6 +27,10 @@
 					<li class="nav-item"> <a class="nav-link" href="html/shopbasket.html"> CART </a> </li>
 					<li class="nav-item"> <a class="nav-link" href="html/board.html"> COMMUNITY </a> </li>
 				</ul>
+				<form class="d-flex searchBtn" role="search">
+        			<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      				<button class="btn btn-outline-secondary" type="submit">Search</button>
+     			 </form>
 			</div>
 		</div>
 	</div>
@@ -39,31 +43,33 @@
 	<!-- 헤더 메인 사진 -->
 	
 	<div class="mainboximg">
-		<div id="mainCarousel" class="carousel slide main_img" data-bs-ride="carousel" data-bs-interval="4000">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="img/main_L1.jpg" class="d-block w-100">
-				</div>
-				
-				<div class="carousel-item">
-					<img src="img/main_L2.jpg" class="d-block w-100">
-				</div>
-				
-				<div class="carousel-item">
-					<img src="img/main_L3.jpg" class="d-block w-100">
-				</div>
-			</div>
-			
-			<div>
-				 <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="visually-hidden">Previous</span>
-			  	</button>
-			  	<button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-			   	 	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  	 	<span class="visually-hidden">Next</span>
-			 	</button>
-			</div>
+		<div id="carouselExampleDark" class="carousel carousel-dark slide main_img" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active" data-bs-interval="10000">
+		      <img src="img/main_L1.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item" data-bs-interval="2000">
+		      <img src="img/main_L2.jpg" class="d-block w-100" alt="...">
+
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/main_L3.jpg" class="d-block w-100" alt="...">
+
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
 		</div>
 		
 		<div class="main_img">
@@ -73,24 +79,99 @@
 	
 	<!-- 제품 생성 -->
 	<div class="container">
-		<h3 class="box_title"> THE BEST PRODUCTS </h3>	
-		
-		<div class="itemBox">
-			<div class="item">
-				<img src="img/it1.gif">
+		<h3 class="box_title"> THE BEST PRODUCTS </h3>
+		<div class="conetentBox">
+			<div class="itemBox">
+				<a href="#"><img class="itemImg" src="img/it1.gif"></a>
+				<div class="itemInfo">
+					<div class="itemTitle">
+					dd
+					</div>
+					<div class="itemSize">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemCart">
+						<button class="btn btn-dark" type="submit">바로주문</button>
+						<button class="btn btn-light" type="submit">장바구니</button>
+					</div>
+				</div>
 			</div>
-			<div class="item">
-				<img src="img/it2.gif">
+			<div class="itemBox">
+				<a href="#"><img class="itemImg" src="img/it2.gif"></a>
+				<div class="itemInfo">
+					<div class="itemTitle">
+					dd
+					</div>
+					<div class="itemSize">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemCart">
+						<button class="btn btn-dark" type="submit">바로주문</button>
+						<button class="btn btn-light" type="submit">장바구니</button>
+					</div>
+				</div>
 			</div>
-			<div class="item">
-				<img src="img/it3.gif">
+			<div class="itemBox">
+				<a href="#"><img class="itemImg" src="img/it3.gif"></a>
+				<div class="itemInfo">
+					<div class="itemTitle">
+					dd
+					</div>
+					<div class="itemSize">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemCart">
+						<button class="btn btn-dark" type="submit">바로주문</button>
+						<button class="btn btn-light" type="submit">장바구니</button>
+					</div>					
+				</div>
 			</div>
-			<div class="item">
-				<img src="img/it4.gif">
+			<div class="itemBox">
+				<a href="#"><img class="itemImg" src="img/it4.gif"></a>
+				<div class="itemInfo">
+					<div class="itemTitle">
+					dd
+					</div>
+					<div class="itemSize">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemPrice">
+					dd
+					</div>
+					<div class="itemCart">
+						<button class="btn btn-dark" type="submit">바로주문</button>
+						<button class="btn btn-light" type="submit">장바구니</button>
+					</div>					
+				</div>
 			</div>
 		</div>
 	</div>
-	sssss
+	
+	<div class="container footer">
+	푸터
+	</div>
+	
 
 	<!-- 부트스트랩: js -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
