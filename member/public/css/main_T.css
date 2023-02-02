@@ -77,6 +77,30 @@ a{
 	width: 100%;	padding: 5%;
 }
 
+.itemInfoBottom{
+	display: flex;
+}
+
 .itemCart{
-	margin-left: 120px;
+	margin-left: 120px;		display: flex;
+}
+
+.itemTitle{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5% 0%;		/* 상하 좌우 */
+}
+
+.itemSize{
+	font-size: 13px;	color: #999999;
+	border-bottom: 1px solid #999999;	padding-bottom: 4%;
+}
+
+.itemPrice{
+	text-decoration: line-through;	font-size: 14px;	color: #999999;
+	margin-top:4%;
+}
+
+.itemSalePrice{
+	font-weight: bold;	font-size: 17px;
 }
