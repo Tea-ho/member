@@ -16,17 +16,17 @@ function cart_print(){
 	
 	let html=''
 	
-	
+/*	img src="../img/it1.gif"*/
 	
 	for(let i=0; i<productList.length; i++){                                    
 		
 		html+=`<tr>
 					<td widtd=5%><input type="checkbox"></td> 
-					<td widtd=40%><img src="${productList[i].img}"> </td>
-					 <td widtd=30%>${productList[i].tittle}</td>
-					 <td widtd=5%>${productList[i].size}</td>
-					 <td widtd=10%>${productList[i].price.toLocaleString()} 원 </td>
-					 <td widtd=10%><button class="form-control" onclick="onDelete(${i})"type="button"> 삭제 </button></td>
+					<td widtd=40%><img src="../img/${productList[i].img}" width="20%" height="20%"> </td>
+					 <td widtd=30% class="item_t">${productList[i].tittle}</td>
+					 <td widtd=5% class="item_s">${productList[i].size}</td>
+					 <td widtd=10% class="item_p">${productList[i].price.toLocaleString()} 원 </td>
+					 <td widtd=10%><button class="form-control X" onclick="onDelete(${i})"type="button"> X </button></td>
 					
 				</tr>`
 	}	
