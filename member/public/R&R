@@ -1,3 +1,8 @@
-이정준 : 문의사항 게시판
+이정준
+브랜치 - 이정준
+git id : amares9100
+문의사항 게시판
 -board.html/board.js/board.css  [게시판]
 -board_write.html/board_write.js/board_write.css[게시글작성]
+사용되는 스킬/외부 라이브러리
+-html , css , js , 부트스트랩 , 썸머노트
