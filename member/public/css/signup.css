@@ -1,14 +1,22 @@
 @charset "EUC-KR";
 
-.container{width: 600px;}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{width: 600px; font-family: 'Pretendard-Regular';}
 .wrap {
   	width:100%;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .wrap h3 {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 40px 0px;
+    
 }
 
 .content tr{width:600px; border-bottom:1px solid  #eeeeee; }
@@ -41,15 +49,19 @@
 	width: 90px;
 	background-color: #fafafa;
 	border: 1px solid #eeeeee;
+	border-radius:3px; 
+	font-size: 15px;
 	
 	}
 
-
+.content button:hover , .join_btn button:hover  {
+	opacity: 0.8;
+}
 
 .y_m_d input {
     display: inline-block;
     
-      width: 27%!important;
+      width: 28%!important;
 }
 
 .radio input {
@@ -67,9 +79,11 @@
 
 
 .join_btn button{
-background-color: #191919;
+background-color:#191919;
 width: 350px;
 height:100px;
 color: white;
 font-size: 30px;
+border-radius:5px; 
+margin-top: 40px;
 }
