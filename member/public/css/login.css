@@ -10,7 +10,7 @@
 }
 
 .wrap{
-	width: 50%;
+	width:560px;
 	margin: 0 auto;
 }
 
@@ -63,6 +63,7 @@ opacity: 0.5;
    
 }
 
+
 .kakao{
 	width: 18px;
 	}
@@ -75,10 +76,18 @@ opacity: 0.5;
 	
 }
 
+
+
 .input_box{
 	
 	border-top:1px solid #eeeeee; 
 	padding-top: 30px;
+}
+
+#id_input, #pw_input{
+	margin-bottom: 10px;
+	color: red;
+	display: none;
 }
 
 
@@ -89,7 +98,7 @@ opacity: 0.5;
 	padding: 25px;
 	border-radius: 5px;
 	border-style: none;
-	margin: 20px 20px 2px 20px;
+	margin-top: 20px;
 }
 
 .login_btn:hover {
