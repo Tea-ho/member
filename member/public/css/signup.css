@@ -1,7 +1,9 @@
 @charset "EUC-KR";
+
+.container{width: 600px;}
 .wrap {
-    width: 1000px;
-    margin: 50px auto 0px;
+  	width:100%;
+    margin-top: 50px;
 }
 
 .wrap h3 {
@@ -9,9 +11,11 @@
     margin-bottom: 30px;
 }
 
+.content tr{width:600px; border-bottom:1px solid  #eeeeee; }
 .content {
     border-top: 1px solid black;
     padding: 20px 0px;
+ 
 }
 
 .content table {
@@ -19,22 +23,38 @@
 }
 
 .content td {
-    padding: 10px 30px;
-    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 10px 5px;
+   
 }
 
+
+.content th{
+	width: 150px;
+}
 .content input {
     width: 100%;
+    padding: 5px;
 }
+
+.content button{ 
+	padding: 5px 10px;
+	width: 90px;
+	background-color: #fafafa;
+	border: 1px solid #eeeeee;
+	
+	}
+
+
 
 .y_m_d input {
     display: inline-block;
     
-      width: 20%!important;
+      width: 27%!important;
 }
 
 .radio input {
-    width: 20% !important;
+    width: 10% !important;
+    margin-left: 20px;
 }
 
 
@@ -42,4 +62,14 @@
     text-align: center;
     margin: 0px auto;
     padding: 30px;
+   
+}
+
+
+.join_btn button{
+background-color: #191919;
+width: 350px;
+height:100px;
+color: white;
+font-size: 30px;
 }
