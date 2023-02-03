@@ -1,23 +1,43 @@
-<html><head>
+
+<!DOCTYPE html>
+<html>
+<head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원가입</title>
 
-
-<!-- 부트스트랩 :뷰포트-->
+<!-- 반응형 뷰포트 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- 부트스트랩:css -->
+<!-- 부트스트랩 : css -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+<!-- th사용자 정의 : css -->
+<link href="../css/main_T.css" rel="stylesheet">
 
 <!-- 사용자: css -->
 <link href="../css/signup.css" rel="stylesheet">
 
 </head>
 <body>
-   
-   
+		<!-- 헤더 상단 -->
+	<div class="navbar navbar-expand-lg text-bg-light p-3 sticky-top h_top">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav h_topmenu">
+					<li class="nav-item"> <a class="nav-link" href="index.html"> ABOUT </a> </li>
+					<li class="nav-item"> <a class="nav-link" href="html/login.html"> LOGIN </a> </li>
+					<li class="nav-item"> <a class="nav-link" href="html/signup.html"> JOIN </a> </li>
+					<li class="nav-item"> <a class="nav-link" href="html/shopbasket.html"> CART </a> </li>
+					<li class="nav-item"> <a class="nav-link" href="html/board.html"> COMMUNITY </a> </li>
+				</ul>
+				<form class="d-flex searchBtn" role="search">
+        			<input class="form-control me-2 searchKey" type="search" placeholder="Search" aria-label="Search">
+      				<button class="seaBtn btn btn-outline-secondary" type="button">Search</button>
+      				
+     			 </form>
+			</div>
+		</div>
+	</div>
    
    <div class="container">
       <div class="wrap">
@@ -25,23 +45,28 @@
          <h6>가입정보 입력</h5>
          <div class="content">
             <table>
-               <tbody><tr><th>아이디 *</th> <td><input type="text"></td> <td><button type="button">중복확인</button></td></tr>
-               <tr><th>비밀번호 *</th> <td><input type="text"></td> <td><button type="button">확 인</button></td></tr>
-               <tr><th>비밀번호확인 *</th> <td><input type="text"></td> <td><button type="button">확 인</button></td></tr>
-               <tr><th>이름 *</th> <td><input type="text"></td></tr>
-               <tr><th>휴대폰번호 *</th> <td><input type="text"></td></tr>
+               <tbody><tr><th>아이디 *<div class="id_error"></div></th> <td><input class="id_input" type="text"></td> <td><button onclick="id_check()" type="button">중복확인</button></td></tr>
+               <tr><th>비밀번호 * <div class="pw_error"></div> </th> <td><input class="pw_input" type="password"></td> <td><button onclick="pw_check()" type="button">확 인</button></td></tr>
+               <tr><th>비밀번호확인 * <div class="pw_error2"></div> </th> <td><input class="pw_input2" type="password"></td> <td><button onclick="pw_check2()" type="button">확 인</button></td></tr>
+               <tr><th>이름 *</th> <td><input class="name" type="text"></td></tr>
+               <tr><th>휴대폰번호 *</th> <td><input type="text"placeholder="-없이 숫자만 작성하세요"></td></tr>
                <tr class="y_m_d"><th>생년월일</td> <td><input type="text">년<input type="text">월<input type="text">일</td></tr>
                <tr><th>이메일주소</th> <td><input type="text"></td></tr>
                <tr class="radio"><th>성별</th><td><input type="radio" name="1">선택안함<input type="radio" name="1">남<input type="radio" name="1">여</td></tr>
             </tbody></table>
-            <div class="join_btn"> <button type="button">가 입 하 기</button> </div>
+            <div class="join_btn"> <button onclick="join_btn()" type="button">가 입 하 기</button> </div>
          </div>
       </div>
    
    </div>
 
+<!-- 부트스트랩:js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+
+
+<!-- 사용자:js -->
 <script src="../js/signup.js" type="text/javascript"></script>
 
-</body>
 
+</body>
 </html>
