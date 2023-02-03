@@ -22,15 +22,24 @@ function productPrint(){
 		let basicPrice = productList[i].price.toLocaleString()
 		let salePrice = (productList[i].price -(productList[i].price * productList[i].discount)).toLocaleString()
 		
-		html += `<div class="itemBox">
-					<a href="#"><img src="img/${ productList[i].img}"></a>
+		html += `<div class="itemBox" onclick="clickImg(i)">
+					<a href="html/product_T.html"><img src="img/${ productList[i].img}"></a>
 				</div>`
 	}
 	
 	document.querySelector('.conetentBox').innerHTML = html;
 }
 
+function clickImg(clickIndex){
+	
+		console.log(clickIndex);
+	
+	let searchStore = [];
+}
+
+
 // 검색창 함수
+/*
 document.querySelector('.seaBtn').addEventListener('click' , (e) =>{
 	let searchStore = [];
 		// console.log('작동확인') //--- type: submit이면 작동 안됨
@@ -78,3 +87,4 @@ document.querySelector('.seaBtn').addEventListener('click' , (e) =>{
 	document.querySelector('.conetentBox').innerHTML = html;
 
 })
+*/
