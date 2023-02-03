@@ -11,7 +11,8 @@
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;}
-
+.table{
+	border-style: solid;}
 
 .cart_title{
 	text-align: center;
@@ -37,6 +38,16 @@ justify-content:flex-end
 	text-align: center;
 	
 }	
-.X{
-	border: 0px solid #ffffff;
+.X{ padding-top:25px;
+	background-color: white;
+	border: 1px solid white;
 }
+
+.price_box,.total{ font-size: 20px;
+}
+
+.item_t, .item_s{
+	padding: 30px !important;
+}
+.ckck{padding-top:25px;}
+

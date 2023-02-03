@@ -56,7 +56,8 @@ a{
 /*--------------------------------------------- 본문(제품 출력 구역) */
 .box_title{
 	font-family: '양진체';	text-align: center;
-	margin-bottom: 50px;	font-size: 35px;
+	margin-top: 150px;
+	margin-bottom: 75px;	font-size: 35px;
 }
 
 .conetentBox{
@@ -64,7 +65,7 @@ a{
 }
 
 .itemBox{
-	display: flex;	flex-wrap: wrap;	width: 25%; 
+	display: flex;	flex-wrap: wrap;	width: 25%; 	padding: 0.5%;
 }
 
 .item{
@@ -74,7 +75,7 @@ a{
 .itemBox :hover{ opacity: 0.8; }
 
 .itemBox img{
-	width: 100%;	padding: 5%;
+	width: 100%;
 }
 
 .itemInfoBottom{
@@ -103,4 +104,61 @@ a{
 
 .itemSalePrice{
 	font-weight: bold;	font-size: 17px;
+}
+
+/*--------------------------------------------- 푸터 */
+.wrapFooter{background-color: #F8F9FA; margin-top: 5%;}
+
+.footer{
+	display: flex;
+}
+
+.footer ul{
+	padding-left: 0px;
+}
+
+.footer li{
+	list-style-type: none;
+	margin-bottom:1%;
+}
+
+.footerLeft{ margin-top:3%;}
+
+.footerCenter1, .footerCenter2, .footerRight{ margin-top:9%;}
+
+.footerLeft{
+	width: 45%;
+}
+
+.footerCenter1, .footerCenter2{
+	color: #999999;
+	width: 20%;
+}
+
+footerRight a{
+	color: #999999;
+}
+
+.footerRight{
+	color: #999999 !important;
+}
+
+.footerLeftTitle{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.footerCenter1Title, .footerCenter2Title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footerRightTitle{
+	font-weight: bold;
+}
+
+.btn_top{
+	position: fixed;
+	bottom: 0px;
+	right:0px;
 }

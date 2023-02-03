@@ -20,7 +20,7 @@ function productPrint(){
 	for(let i = 0; i < productList.length; i++){
 		
 		let basicPrice = productList[i].price.toLocaleString()
-		let salePrice = (productList[i].price * productList[i].discount).toLocaleString()
+		let salePrice = (productList[i].price -(productList[i].price * productList[i].discount)).toLocaleString()
 		
 		html += `<div class="itemBox">
 					<a href="#"><img src="img/${ productList[i].img}"></a>
@@ -68,7 +68,7 @@ document.querySelector('.seaBtn').addEventListener('click' , (e) =>{
 	for(let i = 0; i < searchStore.length; i++){
 		
 		let basicPrice = searchStore[i].price.toLocaleString()
-		let salePrice = (searchStore[i].price * searchStore[i].discount).toLocaleString()
+		let salePrice = (searchStore[i].price-(searchStore[i].price * searchStore[i].discount)).toLocaleString()
 		
 		html += `<div class="itemBox">
 					<a href="#"><img src="img/${ searchStore[i].img}"></a>

@@ -7,10 +7,11 @@
     font-style: normal;
 }
 
-.container{width: 600px; font-family: 'Pretendard-Regular';}
+.container{ font-family: 'Pretendard-Regular';}
 .wrap {
-  	width:100%;
+  	width: 600px;
     margin-top: 80px;
+    margin: 0 auto;
 }
 
 .wrap h3 {
@@ -86,4 +87,12 @@ color: white;
 font-size: 30px;
 border-radius:5px; 
 margin-top: 40px;
+}
+
+
+.pw_error , .id_error , .pw_error2{
+	display:none;
+	color:red;
+	font-size: 13px;
+	margin: 0px 5px;
 }
