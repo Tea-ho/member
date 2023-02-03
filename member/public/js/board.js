@@ -21,7 +21,7 @@ function content_print(){
 		
 		html += `<tr>
 					<td>${o.no}</td>
-					<td>${o.title}</td>
+					<td><a href="#">${o.title}</a></td>
 					<td>${o.name}</td>
 					<td>${o.ymd}</td>
 					<td>${o.read}</td>
