@@ -1,8 +1,10 @@
 
 let contents=[
-	{no : 1 , title : '샘플' , name : '재석' , ymd : '20230131' , read : 555},
-	{no : 2 , title : '샘플2' , name : '호동' , ymd : '20230131' , read : 555},
-	{no : 3 , title : '샘플3' , name : '석진' , ymd : '20230131' , read : 555}
+	{no : 1 , title : '안녕하세요~' , name : '재석' , ymd : '20230204' , read : 213},
+	{no : 2 , title : 'ㄹㄹㄹㄹㄹㄹ' , name : '호동' , ymd : '20230201' , read : 432},
+	{no : 3 , title : '문의사항입니다' , name : '석진' , ymd : '20230131' , read : 643},
+	{no : 4 , title : '여긴뭐냐' , name : '철수' , ymd : '20230124' , read : 543},
+	{no : 5 , title : '안녕안녕' , name : '영희' , ymd : '20230122' , read : 876}
 ]
 
 
