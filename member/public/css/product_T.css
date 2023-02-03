@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainContent{
+	margin-top: 80px;
+	display: flex;
+	font-family: '양진체';	font-size: 20px;	color: #594C47;
+}
+
+.productImgArea{width: 40%; margin-left: 3%;}
+
+.productImgArea img{width: 100%;}
+
+.productInfoArea{
+	width: 40%;
+	margin-left: 14%;	margin-top: 5%;
+}
+
+.productContent{
+	display: flex;  margin-bottom: 5%;
+	
+}
+
+.pPrice{
+	text-decoration: line-through;
+}
+
+.productType{width: 30%;}
+
+.pTitle{ font-weight: bold; }
+
+.totalPrice{
+	height: 20%;
+	border-top: 1px solid #BABCBF;
+	border-bottom: 1px solid #BABCBF;
+	text-align: right;
+	padding-top: 50px;
+}
+
+.productBtn{
+	display: flex;
+	margin-top: 5%;
+}
+
+.wishlistBtn, .cartBtn{
+	width: 23%;	height: 60px;
+	border: 1px solid #BABCBF;	margin-right: 1%;
+}
+.buyBtn{ width: 52%; background-color: #736766; color: white; }
+
+
+.productType{
+	width: 40%;
+} 

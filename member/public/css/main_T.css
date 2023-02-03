@@ -13,31 +13,32 @@
 }
 
 a{
-	color: black !important;
-	text-decoration: none !important;
+	color: black;
+	text-decoration: none;
 }
 
 /*--------------------------------------------- 헤더 상단 */
-.h_topmenu{
-	width: 100%; display: flex;	justify-content: space-between;
-	font-size: 25px;	font-weight: bold;	
+
+.icon_header{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 50px;
+	right: 5px;
 }
 
-.searchBtn{
-	margin-left: 3%;
-}
-
-.nav-item{
-	margin-right: 3%;
+.iconHArea{
+	font-size: 10px;
+	margin-bottom: 25px;
 }
 
 .logobox{
-	 text-align: center;
-	 margin-top: 120px;
+	text-align: center;		margin-top: 60px;
 }
 
 .title{
 	font-family: '양진체';	font-weight: bold;	font-size: 50px;
+	color: #403430;		
 }
 
 /*--------------------------------------------- 헤더 이미지 */
@@ -56,7 +57,7 @@ a{
 /*--------------------------------------------- 본문(제품 출력 구역) */
 .box_title{
 	font-family: '양진체';	text-align: center;
-	margin-top: 150px;
+	margin-top: 150px;		color: #403430;
 	margin-bottom: 75px;	font-size: 35px;
 }
 
@@ -107,7 +108,7 @@ a{
 }
 
 /*--------------------------------------------- 푸터 */
-.wrapFooter{background-color: #F8F9FA; margin-top: 5%;}
+.wrapFooter{background-color: #BABCBF; margin-top: 5%;}
 
 .footer{
 	display: flex;
@@ -128,19 +129,20 @@ a{
 
 .footerLeft{
 	width: 45%;
+	color: #403430;
 }
 
 .footerCenter1, .footerCenter2{
-	color: #999999;
+	color: #594C47;
 	width: 20%;
 }
 
 footerRight a{
-	color: #999999;
+	color: #594C47;
 }
 
 .footerRight{
-	color: #999999 !important;
+	color: #594C47 !important;
 }
 
 .footerLeftTitle{
@@ -159,6 +161,9 @@ footerRight a{
 
 .btn_top{
 	position: fixed;
-	bottom: 0px;
-	right:0px;
+	bottom: 5px;
+	right:5px;
 }
+
+.bi{ fill: #594C47; }
+
