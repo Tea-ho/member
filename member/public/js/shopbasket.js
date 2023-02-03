@@ -21,13 +21,13 @@ function cart_print(){
 	
 	for(let i=0; i<productList.length; i++){                                    
 		
-		html+=`<tr.>
+		html+=`<tr class="박스">
 					<td widtd=5%><input class="ckck" type="checkbox"></td> 
 					<td widtd=40%><img src="../img/${productList[i].img}" width="20%" height="20%"> </td>
 					 <td widtd=30% class="item_t">${productList[i].title}</td>
 					 <td widtd=5% class="item_s">${productList[i].size}</td>
 					 <td widtd=10% class="item_p">${productList[i].price.toLocaleString()} 원
-					 <div widtd=10% class="item_p">${(productList[i].price * productList[i].discount).toLocaleString()} 원 </div> </td>
+					 <div widtd=10% class="item_disp">${(productList[i].price * productList[i].discount).toLocaleString()} 원 </div> </td>
 					 
 					
 					 <td widtd=10%><button class="X"onclick="onDelete(${i})"type="button"> <img src="../img/삭제버튼.png" width="20%" height="20%"></button></td>
