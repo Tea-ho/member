@@ -24,24 +24,6 @@ function productPrint(){
 		
 		html += `<div class="itemBox">
 					<a href="#"><img src="img/${ productList[i].img}"></a>
-					<div class="itemInfo">
-						<div class="itemTitle">
-							${ productList[i].title }
-						</div>
-						<div class="itemSize">
-							${ productList[i].size }
-						</div>
-						<div class="itemPrice">
-							${ basicPrice }원
-						</div>
-						<div class="itemSalePrice">
-							${ salePrice  }원
-						</div>
-						<div class="itemCart">
-							<button class="btn btn-dark" type="submit">바로주문</button>
-							<button class="btn btn-light" type="submit">장바구니</button>
-						</div>
-					</div>
 				</div>`
 	}
 	
