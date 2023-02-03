@@ -38,7 +38,7 @@ justify-content:flex-end
 	text-align: center;
 	
 }	
-.X{
+.X{ padding-top:25px;
 	background-color: white;
 	border: 1px solid white;
 }
@@ -46,4 +46,8 @@ justify-content:flex-end
 .price_box,.total{ font-size: 20px;
 }
 
-.item_p{display: block;}
+.item_t, .item_s{
+	padding: 30px !important;
+}
+.ckck{padding-top:25px;}
+
