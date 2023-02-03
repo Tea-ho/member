@@ -5,9 +5,7 @@
     font-weight: 400;
     font-style: normal;}
     
-.container{
-	font-family: 'Pretendard-Regular';
-}
+*{font-family: 'Pretendard-Regular'!important;}
 
 .wrap{
 	width:560px;
