@@ -31,13 +31,13 @@
 2. 김태호
   
   
-  -  Git ID : 
+  -  Git ID : tea-ho
   
   
-  -  branch : 
+  -  branch : TH
   
   
-  -  역활분담 : 
+  -  역활분담 : index.html, index.css, index.js (메인 페이지)
   
   
   
@@ -85,6 +85,7 @@
 
 
 #### 6. 프로젝트 초기 페이지/구조도
+![member_프로젝트 구조도(초안)](https://user-images.githubusercontent.com/119651889/216504330-d889ae8f-4660-4b72-a64a-d33eada02d2e.png)
 
 
 
