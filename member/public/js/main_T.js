@@ -22,33 +22,24 @@ function productPrint(){
 		let basicPrice = productList[i].price.toLocaleString()
 		let salePrice = (productList[i].price -(productList[i].price * productList[i].discount)).toLocaleString()
 		
-		html += `<div class="itemBox">
-					<a href="#"><img src="img/${ productList[i].img}"></a>
-					<div class="itemInfo">
-						<div class="itemTitle">
-							${ productList[i].title }
-						</div>
-						<div class="itemSize">
-							${ productList[i].size }
-						</div>
-						<div class="itemPrice">
-							${ basicPrice }원
-						</div>
-						<div class="itemSalePrice">
-							${ salePrice  }원
-						</div>
-						<div class="itemCart">
-							<button class="btn btn-dark" type="submit">바로주문</button>
-							<button class="btn btn-light" type="submit">장바구니</button>
-						</div>
-					</div>
+		html += `<div class="itemBox" onclick="clickImg(i)">
+					<a href="html/product_T.html"><img src="img/${ productList[i].img}"></a>
 				</div>`
 	}
 	
 	document.querySelector('.conetentBox').innerHTML = html;
 }
 
+function clickImg(clickIndex){
+	
+		console.log(clickIndex);
+	
+	let searchStore = [];
+}
+
+
 // 검색창 함수
+/*
 document.querySelector('.seaBtn').addEventListener('click' , (e) =>{
 	let searchStore = [];
 		// console.log('작동확인') //--- type: submit이면 작동 안됨
@@ -96,3 +87,4 @@ document.querySelector('.seaBtn').addEventListener('click' , (e) =>{
 	document.querySelector('.conetentBox').innerHTML = html;
 
 })
+*/
