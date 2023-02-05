@@ -1,13 +1,12 @@
 @charset "EUC-KR";
 
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
-.container{ font-family: 'Pretendard-Regular';}
 .wrap {
   	width: 600px;
     margin-top: 80px;
@@ -18,8 +17,11 @@
 .wrap h3 {
     text-align: center;
     margin: 40px 0px;
+    font-family: '양진체';
     
 }
+
+h6{ font-family: '양진체';}
 
 .content tr{width:600px; border-bottom:1px solid  #eeeeee; }
 .content {
@@ -47,29 +49,35 @@
 }
 
 .content button{ 
-	padding: 5px 10px;
+	padding: 7px 10px;
 	width: 90px;
-	background-color: #fafafa;
-	border: 1px solid #eeeeee;
-	border-radius:3px; 
+	background-color: white;
+	border: 1px solid #BABCBF;
+	color:#403430 ;
+	border-radius:5px; 
 	font-size: 15px;
+	
 	
 	}
 
 .content button:hover , .join_btn button:hover  {
-	opacity: 0.8;
+	border: none;
 }
 
 .y_m_d input {
     display: inline-block;
     
       width: 28%!important;
+      
 }
 
 .radio input {
     width: 10% !important;
     margin-left: 20px;
+   
 }
+
+
 
 
 .join_btn {
@@ -79,15 +87,19 @@
    
 }
 
+.join_btn:hover{
+	opacity: 0.8
+}
 
 .join_btn button{
-background-color:#191919;
+background-color:#736766 ;
 width: 350px;
 height:100px;
 color: white;
 font-size: 30px;
 border-radius:5px; 
 margin-top: 40px;
+ font-family: '양진체';
 }
 
 
