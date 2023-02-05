@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+	<!-- 반응형 뷰포트 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- 부트스트랩 : css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+	<!-- 사용자 정의 : css -->
+	<link href="../css/main_T.css" rel="stylesheet">
+	<link href="../css/product_T.css" rel="stylesheet">
+
+<title> Product Info </title>
+</head>
+<body>
+	<!-- 헤더 상단 -->
+	<div class="icon_header">
+   		<!-- login -->
+   		<div class="iconHArea">
+	   		<a href="/member/html/login.html">
+			    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-box-arrow-in-right headeIcon" viewBox="0 0 16 16">
+			  		<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+			  		<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+				</svg>
+				<div> Login </div>	
+			</a>
+		</div>
+		
+		<!-- 회원가입 -->
+		<div class="iconHArea">
+			<a href="html/signup.html">	
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-plus-fill headeIcon" viewBox="0 0 16 16">
+			  		<path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+			  		<path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+				</svg>
+			<div> Join </div>
+			</a>
+		</div>
+	
+		<!-- 장바구니 -->
+		<div class="iconHArea">
+		<a href="html/shopbasket.html">
+			<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-basket2-fill headeIcon" viewBox="0 0 16 16">
+		  		<path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
+			</svg>
+			<div> Cart </div>	
+		</a>
+		</div>
+		
+		<!-- 게시판 -->
+		<div class="iconHArea">
+			<a href="html/board.html">
+			
+			<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clipboard2-fill headeIcon" viewBox="0 0 16 16">
+		  		<path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5h3Z"/>
+		  		<path d="M3.5 1h.585A1.498 1.498 0 0 0 4 1.5V2a1.5 1.5 0 0 0 1.5 1.5h5A1.5 1.5 0 0 0 12 2v-.5c0-.175-.03-.344-.085-.5h.585A1.5 1.5 0 0 1 14 2.5v12a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-12A1.5 1.5 0 0 1 3.5 1Z"/>
+			</svg>
+			<div> Board </div>
+			</a>
+		</div>
+	</div>
+	
+	<!-- 헤더 로고 -->
+	<div class="container logobox">
+		<a class="title" href="index.html"> M E M B E R </a>
+	</div>
+		
+	<!-- 제품 소개 구역 -->
+	<div class="container mainContent">
+		<div class="productImgArea">
+			<img class="productImg" src="../img/it1.gif">
+		</div>
+		<div class="productInfoArea">
+			<div class="productContent">
+				<div class="productType"> 제품명 </div>
+				<div class="pTitle">
+					밀키그린 배색카라 맨투맨
+				</div>
+			</div>
+			<div class="productContent">
+				<div class="productType"> 가격 </div>
+				<div class="pPrice">
+					30,000
+				</div>
+			</div>
+			<div class="productContent">
+				<div class="productType"> 할인가격 </div>
+				<div class="pSalePrice">
+					22,500
+				</div>
+			</div>
+			<div class="productContent">
+				<div class="productType"> 적립금 </div>
+				<div class="pPoint">
+					1%
+				</div>
+			</div>
+			<div class="productContent">
+				<div class="productType"> 사이즈 </div>
+				<div class="pSize">
+					<select class="select form-select">
+						<option> 사이즈 선택 </option>
+						<option> S </option>
+						<option> M </option>
+						<option> L </option>
+					</select>
+				</div>
+			</div>
+			<div class="totalPrice">
+				총 상품 금액    22,500원
+			</div>
+			<div class="productBtn">
+				<button type="button" class="btn wishlistBtn"> WISHLIST </button>
+				<button type="button" class="btn cartBtn"> CART </button>
+				<button type="button" class="btn buyBtn"> BUY NOW </button>
+			</div>
+		</div>
+	</div>
+			
+	<div class="wrapFooter">
+		<div class="container footer">
+			<div class="footerLeft">
+				<p class="footerLeftTitle"> 고객센터: TEL 1234-5678 </p>
+				<ul>
+					<li> 평일: 오전 10시~ 오후5시 </li>
+					<li> 점심시간: 12시~1시 (토/일/공휴일 휴무) </li>
+					<li> 경기도 안산시 상록구 광덕1로 375 강우프라자 5층 </li>
+					<li> 상호명 : 주식회사 멤버 / 대표 : 4조 </li>
+					<li> TEL : 1234-5678 / 사업자번호 : 201-86-09457 </li>
+					<li> 통신판매업번호 : 제 2012-서울중구-0175 호 </li>
+					<li> 개인정보보호책임자 : 김태호, hokeng92@naver.com </li>
+				</ul>
+				<p> 본(MEMBER)쇼핑몰의 사진과 저작권과 초상권은 MEMBER에 있으며,
+					무단 컨텐츠도용시 법적처벌및 손해배상을 청구할 수 있습니다.</p>
+			</div>
+			<div class="footerCenter1">
+				<ul>
+					<li class="footerCenter1Title"> ACCOUNT </li>
+					<li> 신한은행 110 000 0000000 </li>
+					<li> 국민은행 409101 00 000000 </li>
+					<li> 농협 317 0000 000000 </li>
+					<li> (주)멤버 </li>
+				</ul>
+			</div>
+			<div class="footerCenter2">
+				<ul>
+					<li class="footerCenter2Title"> 반품주소지 </li>
+					<li> 경기도 안산시 상록구 광덕1로 375 강우프라자 5층 </li>
+					<li> (주)멤버/우체국(TEL1588-1300) </li>
+				</ul>
+			</div>
+			<div class="footerRight">
+				<p class="footerRightTitle"> with member </p>
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+					<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+					<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+					<path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+					<path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+					<path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+				</svg>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="icon_footTop">
+        	<div class="btn_top">
+        		<a href="#">
+        			<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+  					<path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+					</svg>
+				</a>
+        	</div>
+    </div>
+ 
+	<!-- 부트스트랩: js -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="../js/main_T.js" type="text/javascript"></script>
+</body>
+</html>
+</body>
+</html>
