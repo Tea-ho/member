@@ -41,6 +41,7 @@
 	border-bottom: 1px solid #BABCBF;
 	text-align: right;
 	padding-top: 50px;
+	font-weight: bold;
 }
 
 .productBtn{
@@ -57,4 +58,8 @@
 
 .productType{
 	width: 40%;
-} 
+}
+
+.conetentBox{
+	display: none;
+}

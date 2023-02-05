@@ -4,10 +4,10 @@ let productList=[
 	{ img: 'it1.gif', title: 'LIN퓨어 슬림배기핏 팬츠', size: '[ FREE ]' , price: 49000, discount: 0.25},
 	{ img: 'it2.gif', title: '러브레스 블라우스', size: '[ FREE ]' , price: 40000, discount: 0.30},
 	{ img: 'it3.gif', title: '뉴케이블 꽃버튼 가디건', size: '[ S , M , L ]' , price: 60000, discount: 0.30},
-	{ img: 'it4.gif', title: '오브더베이 배색카라 맨투맨', size: '[ S , M , L ]' , price: 32500, discount: 0.25},
-	{ img: 'it5.gif', title: '밀키그린 배색카라 맨투맨', size: '[ S , M , L ]' , price: 32500, discount: 0.30},
-	{ img: 'it6.gif', title: '밀라노 골드버튼 클래식 자켓', size: '[ FREE ]' , price: 75000, discount: 0.25},
-	{ img: 'it7.gif', title: '마그레츠 슈포켓 자켓', size: '[ FREE ]' , price: 75000, discount: 0.25},
+	{ img: 'it4.gif', title: '오브더베이 배색카라 맨투맨', size: '[ S , M , L ]' , price: 30000, discount: 0.25},
+	{ img: 'it5.gif', title: '밀키그린 배색카라 맨투맨', size: '[ S , M , L ]' , price: 30000, discount: 0.30},
+	{ img: 'it6.gif', title: '밀라노 골드버튼 클래식 자켓', size: '[ FREE ]' , price: 80000, discount: 0.25},
+	{ img: 'it7.gif', title: '마그레츠 슈포켓 자켓', size: '[ FREE ]' , price: 80000, discount: 0.25},
 	{ img: 'it8.gif', title: '로렌 로맨틱 스커트', size: '[ FREE ]' , price: 40000, discount: 0.25}
 ]
 
@@ -23,7 +23,7 @@ function productPrint(){
 		let salePrice = (productList[i].price -(productList[i].price * productList[i].discount)).toLocaleString()
 		
 		html += `<div class="itemBox" onclick="clickImg(i)">
-					<a href="html/product_T.html"><img src="img/${ productList[i].img}"></a>
+					<a href="html/product_T${i}.html"><img src="img/${ productList[i].img}"></a>
 				</div>`
 	}
 	
