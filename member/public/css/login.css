@@ -1,13 +1,11 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;}
-    
-.container{
-	font-family: 'Pretendard-Regular';
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 .wrap{
 	width:560px;
@@ -30,6 +28,7 @@ a {
     border-radius: 10px;
     margin: 30px;
     padding: 5px;
+    font-family: '양진체';
 }
 
 
@@ -47,6 +46,7 @@ opacity: 0.5;
 
 .header h3 {
     font-size: 30px;
+    
    
 }
 .yellow_btn:hover{opacity: 0.8;}
@@ -92,7 +92,7 @@ opacity: 0.5;
 
 
 .login_btn{
-	background-color: #31363d;
+	background-color: #736766 ;
 	color: white;
 	width: 416px;
 	padding: 25px;
@@ -109,6 +109,7 @@ opacity: 0.5;
 .last_btn button{
 	background-color: white;
 	border-style: none;
+	font-family: '양진체';
 }
 
 .last_btn button:hover{
