@@ -50,5 +50,61 @@ justify-content:flex-end
 	padding: 30px !important;
 }
 .ckck{padding-top:25px;}
-.item_disp{color:red;
-       }
+.item_p{
+	
+	color:#eeeeee;
+	
+}
+
+.item_disp{
+	text-decoration: none ! important;
+	color:black ! important;
+}
+
+
+.message_wrap{
+	position: fixed; /*위치고정*/
+	top:0; left:0; /*시작점*/
+	width:100%; height: 100%;
+	background-color: rgba(0,0,0,0.5);/*검정색에 50% 투명도*/
+	/*rgb(0,0,0) :검정색*/
+	/*rgba(0,0,0,투명도) */
+	z-index:1030; /*겹쳤을때 우선순위*/
+	/*헤더에 부트스트랩 .stick-top{z-index:1020}*/
+	
+	display: flex;
+	justify-content: center;
+	align-content: center; align-items: center; /*중앙 배치*/
+	/*버튼에 따른 표시여부 flex:모달열기/none:모달 숨기기*/
+	display:none;/*기보값:처음에 모달 숨기기 안보임*/
+}
+
+.message_box{
+	background-color: white; width:40%;
+	padding: 3%; border-radius: 5%;
+}
+
+
+.message_btns{
+
+text-align: center;
+margin: 5% 0%;
+}
+
+.message_box button{
+	background-color:white  ;
+	padding: 10px 20px;
+	margin-left: 3%;
+	border: 1px solid #BABCBF;
+	border-radius: 10px;
+}
+.message_content{
+	
+	font-size: 18px;
+	text-align: center;
+	align-items: center;
+}    
+
+
+
+
