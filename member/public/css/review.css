@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{ font: '맑은 고딕';}
+
+
+.container h3{
+	text-align: center;
+	margin: 5%;
+	font-family: '양진체';
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.re_header div{
+	text-align: center;
+}
+
+.re_header{
+	margin: 2%;
+	border-bottom: 2px solid black;
+	padding-bottom: 1%;
+}
+
+.re_list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #eeeeee;
+}
