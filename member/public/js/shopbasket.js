@@ -4,9 +4,7 @@ console.log('실행')
 let cartlist=[]
 
 
-
-
-// 제품출력 함수
+// 제품출력 함수s
 
 
 
