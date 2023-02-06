@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .container h3{
 	text-align: center;
 	margin: 5%;
@@ -12,8 +13,4 @@
 	font-size: 40px;
 	border-bottom: 2px solid black;
 	padding-bottom: 20px;
-}
-
-.container{
-	width: 50%;
 }

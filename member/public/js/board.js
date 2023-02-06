@@ -4,7 +4,10 @@ let contents=[
 	{no : 2 , title : 'ㄹㄹㄹㄹㄹㄹ' , name : '호동' , ymd : '20230201' , read : 432},
 	{no : 3 , title : '문의사항입니다' , name : '석진' , ymd : '20230131' , read : 643},
 	{no : 4 , title : '여긴뭐냐' , name : '철수' , ymd : '20230124' , read : 543},
-	{no : 5 , title : '안녕안녕' , name : '영희' , ymd : '20230122' , read : 876}
+	{no : 5 , title : '안녕안녕' , name : '영희' , ymd : '20230122' , read : 876},
+	{no : 6 , title : '상품문의입니다' , name : '희동' , ymd : '20230122' , read : 1112},
+	{no : 7 , title : '토스결제 가능한가요' , name : '병점' , ymd : '20230122' , read : 1323},
+	{no : 8 , title : '안녕하십니까' , name : '수리' , ymd : '20230122' , read : 839}
 ]
 
 
