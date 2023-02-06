@@ -86,6 +86,7 @@ function join_btn(){
 	회원명단.push(회원)
 	console.log(회원명단)
 	alert('가입해주셔서 감사합니다')
+	location.href='../index.html';
 	
 	}
 		

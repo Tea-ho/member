@@ -19,21 +19,19 @@ a {
 }
 
 .back_btn {
-    background-color: white;
+    background-color:white ;
     font-size: 15px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(238, 238, 238);
-    border-image: initial;
+    border:1px solid #736766 ;
     border-radius: 10px;
     margin: 30px;
     padding: 5px;
-    font-family: '양진체';
+    color: #403430 ;
 }
 
 
 .back_btn:hover{
 opacity: 0.5;	
+
 }
 
 .content {
@@ -93,7 +91,7 @@ opacity: 0.5;
 
 .login_btn{
 	background-color: #736766 ;
-	color: white;
+	color:white;
 	width: 416px;
 	padding: 25px;
 	border-radius: 5px;
@@ -110,6 +108,7 @@ opacity: 0.5;
 	background-color: white;
 	border-style: none;
 	font-family: '양진체';
+	color: #403430 ;
 }
 
 .last_btn button:hover{
