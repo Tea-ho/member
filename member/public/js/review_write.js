@@ -16,8 +16,8 @@ function review_write(){
 	let pw = document.querySelector('.w_pw').value
 	let kor_check = /([^가-힣ㄱ-ㅎㅏ-ㅣ\x20])/i;
 	
-	let year = new Date().getFullYear(); // 기본값 : 현재 연도
-	let month = new Date().getMonth()+1; // 기본값 : 현재 월
+	let year = new Date().getFullYear(); 
+	let month = new Date().getMonth()+1;
 	let day = new Date().getDate();
 	
 	
