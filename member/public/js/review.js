@@ -18,9 +18,9 @@ function review(){
 					<div class="col-md-6">제목</div>
 					<div class="col-md-1">작성자</div>
 					<div class="col-md-2">날짜</div>
-					<div class="col-md-1">조회수</div>
+					<div class="col-md-1" onclick="list_up()"><a href="#">조회수</a></div>
 				</div>`
-				
+		
 	
 		contents.forEach((o , i)=> {
 		
@@ -33,5 +33,10 @@ function review(){
 				</div>`
 	})
 	document.querySelector('.re_contants').innerHTML=html;
+}
+
+function list_up(){
+	contents.sort((a, b) => b.read - a.read);
+	review();
 }
 
