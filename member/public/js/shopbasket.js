@@ -27,7 +27,7 @@ function cart_print(){
 					 <td widtd=30% class="item_t">${productList[i].title}</td>
 					 <td widtd=5% class="item_s">${productList[i].size}</td>
 					 
-					 <td widtd=10% class="item_p">${productList[i].price.toLocaleString()} 원
+					 <td widtd=10%><span  class="item_p">${productList[i].price.toLocaleString()} 원 </span>
 					 <div widtd=10% class="item_disp">${(productList[i].price * productList[i].discount).toLocaleString()} 원 </div></td> 
 					 
 					
