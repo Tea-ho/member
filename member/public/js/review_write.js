@@ -36,8 +36,7 @@ function review_write(){
 		writer : document.querySelector('.w_name').value  ,
 		password : document.querySelector('.w_pw').value ,
 		ymd : `${year}.${month}.${day}`
-		
-						}
+		}
 	
 	review_list.push(review)
 	console.log(review_list)
