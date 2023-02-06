@@ -10,6 +10,7 @@ function 출력(){
 	
 	document.querySelector('.input_box').innerHTML=	html		
 	
+	
 }
 
 function login(){

@@ -66,35 +66,51 @@ function pw_check2(){//비밀번호 재확인 인풋
 
 
 
-function join_btn(){
-	
-	let allinput=document.querySelector('input').value;
-	
-	
+function join_btn(){// 버튼을 눌렀을때
+
 	let 회원={
 		id:document.querySelector('.id_input').value,
 		pw:document.querySelector('.pw_input').value,
 		name:document.querySelector('.name').value
+
 	}
-	
+
 	let name=document.querySelector('.name').value;
-	if(!isNaN(name)){
+	let m_num=document.querySelector('.m_num').value;
+	let yyy=document.querySelector('.yyy').value;
+	let mmm=document.querySelector('.mmm').value;
+	let ddd=document.querySelector('.ddd').value;
+	let email=document.querySelector('.email').value;
+
+	let id_error=document.querySelector('.id_error').value;
+	console.log('id_error',id_error)
+
+
+
+
+	if(회원.id==''||회원.name==''||회원.pw==''||m_num==''||yyy==''||mmm==''||ddd==''||email==''){
+		alert('빈칸을 채워주세요')
+		return;
+	}else if(!isNaN(name)){
 		alert("이름은 한글로 써주세요")
 		return;
-		
+
+	}else if(isNaN(m_num)){
+		alert("핸드폰번호는 숫자만 써주세요")
+	}else if(m_num.length<10){
+		alert("핸드폰번호는 10자리 이상입니다")
+	}else if(yyy.length!=4 ||mmm.length<1 ||mmm.length>2||ddd.length<1 ||ddd.length>2 ){
+		alert("생년월일을 확인해주세요")
 	}else{
 	회원명단.push(회원)
 	console.log(회원명단)
+
 	alert('가입해주셔서 감사합니다')
-	location.href='../index.html';
+	location.href='../index.html'
 	
 	}
 		
 }
-
-
-
-
 
 
 
