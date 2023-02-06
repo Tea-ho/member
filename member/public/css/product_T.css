@@ -60,6 +60,22 @@
 	width: 40%;
 }
 
-.conetentBox{
-	display: none;
+.mainbar{
+	font-family: '양진체';	font-size: 15px;	color: #736766;
+	margin-top: 3%;
+	
+}
+
+.mainbarwrap{border-bottom: solid 1px #BABCBF; }
+
+.mainbarwrap ul{display: flex;}
+.mainbarwrap li{
+	list-style-type: none;	margin-right:7%; 	color:#736766;
+}
+
+/* 선택된 li 꾸미기 */
+.categoryselect{
+	color: #736766 !important;	/* 속성 충돌 시 최우선 순위 설정 !important */
+	border-top: 1px solid #736766;	padding-bottom: 5px;
+	font-weight: bold;	color:#736766;
 }
