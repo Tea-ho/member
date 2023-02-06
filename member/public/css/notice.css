@@ -14,3 +14,7 @@
 	border-bottom: 2px solid black;
 	padding-bottom: 20px;
 }
+
+.pagination .page-link{
+	color: black;
+}
