@@ -49,10 +49,10 @@
 }
 
 .wishlistBtn, .cartBtn{
-	width: 23%;	height: 60px;
-	border: 1px solid #BABCBF;	margin-right: 1%;
+	width: 115px;	height: 60px;
+	border: 1px solid #BABCBF;	margin-right: 5px;
 }
-.buyBtn{ width: 52%; background-color: #736766; color: white; }
+.buyBtn{ width: 280px; background-color: #736766; color: white;	height: 60px; }
 
 
 .productType{
