@@ -15,6 +15,7 @@ function review_write(){
 	let name = document.querySelector('.w_name').value
 	let pw = document.querySelector('.w_pw').value
 	let kor_check = /([^가-힣ㄱ-ㅎㅏ-ㅣ\x20])/i;
+	let regexPw = /^[A-Za-z0-9`~!@#\$%\^&\*\(\)\{\}\[\]\-_=\+\\|;:'"<>,\./\?]{8,20}$/;
 	
 	let year = new Date().getFullYear(); 
 	let month = new Date().getMonth()+1;
@@ -25,8 +26,8 @@ function review_write(){
 		alert('한글만 입력해주세요.')
 		return false;
 	}
-	else if(isNaN(pw)){
-		alert('비밀번호는 숫자만 입력하세요.')
+	else if(!regexPw.test(pw)){
+		alert('비밀번호는 8~20자 사이로 입력해주세요.')
 		return false;
 	}
 	else{
