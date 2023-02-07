@@ -1,7 +1,7 @@
 console.log('실행')
 
 
-let cartlist=[]
+
 
 
 // 제품출력 함수s
@@ -20,7 +20,7 @@ function cart_print(){
 	for(let i=0; i<productList.length; i++){                                    
 		
 		html+=`<tr class="박스">
-					<td widtd=5%><input class="ckck" type="checkbox"></td> 
+					<td widtd=5%><input class="ckck"  onclick="sel_box()"type="checkbox" checked="checked"></td> 
 					<td widtd=40%><img src="../img/${productList[i].img}" width="20%" height="20%"> </td>
 					 <td widtd=30% class="item_t">${productList[i].title}</td>
 					 <td widtd=5% class="item_s">${productList[i].size}</td>
@@ -63,4 +63,24 @@ function message_colse(){
 document.querySelector('.message_wrap').style.display='none'
 }
 
+let all_cbox = true; // 1. 체크박스 초기 상태 = 모두 선택된상태 
+cart_print();
+function all_input(){
+	console.log('체크')
+	let checkboxs=document.querySelectorAll('input[type="checkbox"]')
+	
+	if( all_cbox ){ // 2. 모든 선택되어 있으면
+		checkboxs.forEach((checkbox)=>{ checkbox.checked=false; }) // 모든 박스 체크 풀기 
+		all_cbox = false; // 상태 변경 
+		
+	}else{ // 3. 모두 선택이 안되어 있으면
+		checkboxs.forEach((checkbox)=>{ checkbox.checked=true; }) // 모든 박스 체크 넣기 
+		all_cbox = true; // 상태 변경
+	}
+	
+}
+//개별박스
+let s_box=true;
+function sel_box(i){
 
+}
