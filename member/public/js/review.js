@@ -25,7 +25,7 @@ function review(){
 		contents.forEach((o , i)=> {
 		
 		html += `<div class="row re_header re_list">
-					<div class="col-md-2"><a href="product_T${i+1}.html"><img src="${o.img}" width="50%;"></a></div>
+					<div class="col-md-2"><a href="product_T${i}.html"><img src="${o.img}" width="50%;"></a></div>
 					<div class="col-md-6"><a>${o.title}</a></div>
 					<div class="col-md-1">${o.name}</div>
 					<div class="col-md-2">${o.ymd}</div>
