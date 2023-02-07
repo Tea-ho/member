@@ -66,7 +66,7 @@ document.querySelector('.message_wrap').style.display='none'
 
 let all_cbox = true; // 1. 체크박스 초기 상태 = 모두 선택된상태 
 cart_print();
-/*function all_input(){
+function all_input(){
 	console.log('체크')
 	let checkboxs=document.querySelectorAll('input[type="checkbox"]')
 	
@@ -79,7 +79,7 @@ cart_print();
 		all_cbox = true; // 상태 변경
 	}
 	
-}*/
+}
 //개별박스
 
 let total1=0
