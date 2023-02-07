@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*--------------------------------------------- 공통 적용 사항 */
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: '맑은 고딕';
+	margin: 0; padding: 0px;
+}
+
+a{
+	color: #594C47!important; 
+	text-decoration: none;
+}
+
+.wrap{
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-top:1px solid #eeeeee; 
+	
+}
+
+.wrap h3{
+	font-family: '양진체';
+	color: #403430 ;
+	margin: 30px;
+	
+}
+
+.내정보{
+	display: flex;
+	justify-content: space-evenly;
+	width: 300px;
+	margin: 0 auto;
+	align-items: center;
+	
+}
+.내정보:hover {
+	opacity: 0.8;
+}
+
+.imgFile{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 60px;
+	color: #403430;
+	border-bottom: 1px solid #eeeeee;
+	
+	
+}
+.imgFile a:hover {
+	opacity: 0.5;
+}
+
+.imgFile span{
+	font-family: '양진체';
+	color: red;
+}
+.혜택{
+	border-bottom: 1px solid #eeeeee;
+}
+
+.myInfo{
+	padding: 50px 100px;
+	text-align:left;
+	
+	
+	
+	
+}
+
+.myInfo h4{
+	margin: 30px 0px;
+	color: #403430;
+}
+
+
