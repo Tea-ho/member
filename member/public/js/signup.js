@@ -1,6 +1,10 @@
 console.log('작동')
 
-let 회원명단=[{id:'장민정입니다',pw:'minjeong!',name:'장민정' }]
+let 회원명단=[
+	{id:'장민정입니다',pw:'minjeong!',name:'장민정' },
+	{id:'김은영입니다',pw:'eunyoung!',name:'김은영' },
+	{id:'홍길동입니다',pw:'gildong!',name:'홍길동' }
+	]
 
 
 function id_check(){//아이디 인풋
