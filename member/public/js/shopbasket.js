@@ -80,7 +80,12 @@ function all_input(){
 	
 }
 //개별박스
-let s_box=true;
+
 function sel_box(i){
-console.log('cpcpcp')
+
+let total='';
+if(checked=true){productList[i].price
+	total+=productList[i].price
+}
+
 }
