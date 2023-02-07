@@ -13,14 +13,14 @@ function cart_print(){
 	
 	let total = 0;
 	for( let j = 0 ; j<productList.length ; j++ ){ total +=(productList[j].price-(productList[j].price * productList[j].discount)) } 
-	document.querySelector('.total').innerHTML = total.toLocaleString()+'원';
+	document.querySelector('.total').innerHTML = 0+'원';
 	
 	let html=''
 	
 	for(let i=0; i<productList.length; i++){                                    
 		
 		html+=`<tr class="박스">
-					<td widtd=5%><input class="ckck"  onclick="sel_box(${i})"type="checkbox" checked="checked"></td> 
+					<td widtd=5%><input class="ckck"  onclick="sel_box(${i})"type="checkbox" ></td> 
 					<td widtd=40%><img src="../img/${productList[i].img}" width="20%" height="20%"> </td>
 					 <td widtd=30% class="item_t">${productList[i].title}</td>
 					 <td widtd=5% class="item_s">${productList[i].size}</td>
@@ -40,6 +40,7 @@ function cart_print(){
 
 function onDelete(i){
 	productList.splice(0,1);
+	total1=0;
 	cart_print();
 }
 
@@ -65,7 +66,7 @@ document.querySelector('.message_wrap').style.display='none'
 
 let all_cbox = true; // 1. 체크박스 초기 상태 = 모두 선택된상태 
 cart_print();
-function all_input(){
+/*function all_input(){
 	console.log('체크')
 	let checkboxs=document.querySelectorAll('input[type="checkbox"]')
 	
@@ -78,14 +79,28 @@ function all_input(){
 		all_cbox = true; // 상태 변경
 	}
 	
-}
+}*/
 //개별박스
 
-function sel_box(i){
-
-let total='';
-if(checked=true){productList[i].price
-	total+=productList[i].price
-}
-
+let total1=0
+let select=0
+function sel_box(j){
+   let ttt=document.querySelector('.ckck').value
+   
+   
+   if(event.target.checked){
+      console.log('하이11')
+   
+      select=(productList[j].price)-(productList[j].price*productList[j].discount)
+      console.log(select)
+      
+      total1+=select;
+      
+      document.querySelector('.total').innerHTML = total1.toLocaleString()+'원';
+   }else if( !(event.target.checked)){
+      console.log("apfhd")
+      total1-=select;
+      document.querySelector('.total').innerHTML = total1.toLocaleString()+'원';
+      }
+   
 }
