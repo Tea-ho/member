@@ -1,5 +1,8 @@
 ###frontend_mini project 4team
 
+#### 0. 유튜브 링크
+https://youtu.be/aT90lmti_mA
+
 #### 1. 주제
 쇼핑몰 홈페이지 구현
 
