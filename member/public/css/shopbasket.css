@@ -25,7 +25,6 @@ a{
 	border-bottom: 2px solid #999999;
 	width:100%;    /*박스 가로길이*/
 	margin:3% auto; /*박스권 가운데 정렬*/
-	padding-top: 10%;  /*안쪽 여백*/
 	padding-bottom: 1%; /*안쪽 아래 여백*/
 }
 
@@ -82,8 +81,11 @@ text-decoration: line-through;
 }
 
 .message_box{
+	border:3px solid #eeeeee;
 	background-color: white; width:30%;
-	padding: 3%; border-radius: 3%;
+	padding: 3%; border-radius: 15px;
+	text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -105,8 +107,14 @@ margin: 5% 0%;
 	font-size: 18px;
 	text-align: center;
 	
+	
 }    
 
+.d_icon{
+	padding: 25px;
 
 
+}
+.buts{margin-bottom: 100px;
+}
 
