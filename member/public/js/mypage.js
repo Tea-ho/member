@@ -14,9 +14,9 @@ function  out(){ //탈퇴유효성
 				회원명단.splice(i,1)
 				console.log(회원명단)
 				check=true;
+				location.href='../index.html'
 				return;
 			}
-			location.href='../index.html'
 		}
 	} )
 	
