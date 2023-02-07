@@ -80,4 +80,19 @@ a{
 	color: #403430;
 }
 
+.coupon{
+	display: flex;
+	flex-direction: column
+	}
+
+.card-body li{
+	text-align: left;
+	list-style: none;
+	font-family: '양진체';
+}
+
+.card-body{
+	border: none;
+}
+
 
