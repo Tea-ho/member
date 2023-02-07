@@ -1,7 +1,7 @@
-@charset "EUC-KR";
+@charset "UTF-8";
 
 @font-face {
-    font-family: '¾çÁøÃ¼';
+    font-family: 'ì–‘ì§„ì²´';
     src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -17,11 +17,11 @@
 .wrap h3 {
     text-align: center;
     margin: 40px 0px;
-    font-family: '¾çÁøÃ¼';
+    font-family: 'ì–‘ì§„ì²´';
     
 }
 
-h6{ font-family: '¾çÁøÃ¼';}
+h6{ font-family: 'ì–‘ì§„ì²´';}
 
 .content tr{width:600px; border-bottom:1px solid  #eeeeee; }
 .content {
@@ -99,7 +99,7 @@ color: white;
 font-size: 30px;
 border-radius:5px; 
 margin-top: 40px;
- font-family: '¾çÁøÃ¼';
+ font-family: 'ì–‘ì§„ì²´';
 }
 
 
