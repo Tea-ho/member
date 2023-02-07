@@ -88,16 +88,14 @@ https://youtu.be/aT90lmti_mA
 
 
 #### 6. 프로젝트 초기 페이지/구조도
-![member_프로젝트 구조도(초안)](https://user-images.githubusercontent.com/119651889/216504330-d889ae8f-4660-4b72-a64a-d33eada02d2e.png)
-
-
+![그림1](https://user-images.githubusercontent.com/119651889/217197151-cbca5e0c-1e18-4b87-bc98-5cdec342490c.png)
 
 
 
 
 
 #### 7. 프로젝트 초기 폴더/파일 구조도
-![폴더_파일 구조도](https://user-images.githubusercontent.com/120459763/216259102-7a8579fa-84d7-4eb7-860c-40d97ab2270b.jpg)
+![그림3](https://user-images.githubusercontent.com/119651889/217197231-5b7da925-ce86-4f72-bf0b-1eaa75902f8c.png)
 
 
 
